@@ -2,4 +2,4 @@
 This installer script installs cakephp2, DebugKit, Boostcake.
 
 #Usage
-    $ curl -O https://raw.github.com/hkurosawa/pancake/master/src/pancake.sh;bash ./pancake.sh
+    $ curl -LO https://raw.github.com/hkurosawa/pancake/master/src/pancake.sh;bash ./pancake.sh
