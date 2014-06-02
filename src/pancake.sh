@@ -2,14 +2,8 @@
 CAKE='./Vendor/bin/cake'
 COMPOSER_JSON='{
     "name": "websandbox",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "http://pear.cakephp.org"
-        }
-    ],
     "require": {
-        "pear-cakephp/cakephp": ">=2.3.4",
+        "cakephp/cakephp": ">=2.5.0",
         "cakephp/debug_kit": "2.2.*",
         "slywalker/boost_cake": "*"
     },
