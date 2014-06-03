@@ -10,7 +10,7 @@ COMPOSER_JSON='{
     "config": {
         "vendor-dir": "Vendor/"
     }}'; 
-CAKE_CORE_INCLUDE_PATH="define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . APP_DIR . '/Vendor/pear-pear.cakephp.org/CakePHP');";
+CAKE_CORE_INCLUDE_PATH="define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . APP_DIR . '/Vendor/cakephp/cakephp/lib');";
 AUTOLOADER_FIX="
 // Load Composer autoload.
 require APP . '/Vendor/autoload.php';
