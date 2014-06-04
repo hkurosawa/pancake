@@ -3,7 +3,7 @@ CAKE='./Vendor/bin/cake'
 COMPOSER_JSON='{
     "name": "websandbox",
     "require": {
-        "cakephp/cakephp": ">=2.5.0",
+        "cakephp/cakephp": "2.5.*",
         "cakephp/debug_kit": "2.2.*",
         "slywalker/boost_cake": "*"
     },
